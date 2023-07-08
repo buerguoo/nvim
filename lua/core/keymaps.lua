@@ -78,7 +78,7 @@ keymap.set("n", "gi", "<cmd>Lspsaga hover_doc ++keep<CR>")
 keymap.set({"n", "t"}, "<leader>tt", "<cmd>Lspsaga term_toggle<CR>")
 
 --SymbolsOutline
-vim.api.nvim_set_keymap("n", "<leader>;", "<cmd>SymbolsOutline<CR>", {silent = true, noremap = true})
+vim.api.nvim_set_keymap("n", "<leader>z", "<cmd>SymbolsOutline<CR>", {silent = true, noremap = true})
 
 
 -- dap

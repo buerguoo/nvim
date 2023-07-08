@@ -38,7 +38,7 @@ local function config_dapui()
   -- dap.defaults.fallback.force_external_terminal = true
   dap.defaults.fallback.focus_terminal = true
 
-  local dapui = require "dap"
+  local dapui = require "dapui"
 
   local debug_open = function()
     dapui.open()
@@ -50,7 +50,7 @@ local function config_dapui()
     dap.repl.close()
     dapui.close()
     -- vim.api.nvim_command("DapVirtualTextDisable")
-    vim.api.nvim_command("bdelete! term:")   -- close debug temrinal
+    -- vim.api.nvim_command("bdelete! term:")   -- close debug temrinal
   end
 
   dap.listeners.after.event_initialized["dapui_config"] = function()
