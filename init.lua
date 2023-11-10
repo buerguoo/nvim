@@ -1,6 +1,5 @@
 -- core profile
 require("core")
-
 -- plugins
 require("plugins")
 

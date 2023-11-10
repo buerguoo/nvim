@@ -40,6 +40,6 @@ opt.termguicolors = false
 opt.signcolumn = "yes"
 
 -- themes
-vim.cmd[[colorscheme tokyonight-moon]]
+vim.cmd[[colorscheme tokyonight-night]]
 -- vim.cmd 'colorscheme material-oceanic'
 
