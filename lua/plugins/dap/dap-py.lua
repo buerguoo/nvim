@@ -19,7 +19,7 @@ dap.adapters.python = function(cb, config)
       type = 'executable',
 			-- debug python path
       -- command = '/home/pie/anaconda3/envs/nasim/bin/python',
-			command = '/home/pie/.local/share/nvim/mason/packages/debugpy/venv/bin/python',
+			command = '/home/buguo/anaconda3/envs/rl/bin/python',
       args = { '-m', 'debugpy.adapter' },
       options = {
         source_filetype = 'python',
@@ -35,7 +35,7 @@ dap.configurations.python = {
     name = "Launch file";
     program = "${file}"; -- This configuration will launch the current file if used.
     pythonPath = function()
-       return  '/home/pie/anaconda3/envs/nasim/bin/python3'
+       return  '/home/buguo/anaconda3/envs/rl/bin/python'
 			 -- return '/usr/bin/python3'
     end;
 		env = {PYTHONPATH =  "${workspaceFolder}/.."},

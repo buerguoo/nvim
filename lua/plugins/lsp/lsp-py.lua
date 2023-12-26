@@ -8,11 +8,11 @@ require("lspconfig").pyright.setup{
 				useLibraryCodeForTypes = true
 			} ,
 			-- pyright's python path
-			pythonPath = "/home/pie/anaconda3/envs/nasim/bin/python" -- conda envs: nasim
+			pythonPath = "/home/buguo/anaconda3/envs/rl/bin/python"
 		}
 	},
 	-- root directory
-	root_dir = function ()
-		return "/home/pie/Documents/Program/Python/Nasim/" -- a local project name
-	end
+	-- root_dir = function ()
+	-- 	return "/home/pie/Documents/Program/Python/Nasim/" -- a local project name
+	-- end
 }
